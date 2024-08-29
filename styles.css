@@ -1,0 +1,90 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8eaf6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #3949ab;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	
+
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #5c6bc0;
+    color: #e8eaf6;
+    border-radius: 5px;
+}
+
+/* Section Styles */
+section#resume {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+section#resume h1 {
+    font-size: 40px;
+    color: #3949ab;
+    margin-bottom: 10px;
+}
+
+section#resume p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+section#resume img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #3949ab;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3949ab;
+    color: white;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
